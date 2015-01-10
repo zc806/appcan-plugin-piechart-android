@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+     <plugin
+        className="com.uexPieChart.EUExPieChart"
+        uexName="uexPieChart" >
+        <method name="open" />
+        <method name="close" />
+        <method name="setJsonData" />
+        <method name="loadData" />
+        <method name="callBackData"/>
+    </plugin>
+
+     <plugin
+        className="org.zywx.wbpalmstar.plugin.uexlog.EUExLog"
+        uexName="uexLog" >
+        <method name="sendLog" />
+    </plugin>
+        <plugin
+        className="org.zywx.wbpalmstar.plugin.uexmultiHttp.EUExXmlHttpMgr" uexName="uexXmlHttpMgr" >
+        <method name="open" />
+        <method name="setPostData" />
+		<method name="setCertificate" />
+        <method name="send" />
+		<method name="setInputStream" />
+        <method name="close" />
+		<method name="setHeaders" />
+        <method name="setBody" />
+    </plugin>
+</uexplugins>

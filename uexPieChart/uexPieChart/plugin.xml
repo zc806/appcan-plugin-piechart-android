@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+
+    <plugin
+        className="com.uexPieChart.EUExPieChart"
+        uexName="uexPieChart" version="3.0" build="0">
+        <method name="open" />
+        <method name="close" />
+        <method name="setJsonData" />
+        <method name="loadData" />
+        <method name="callBackData"/>
+    </plugin>
+
+</uexplugins>
